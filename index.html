@@ -16,6 +16,13 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css">
+
+        
   </head>
   <body>
     <div class="container">
@@ -48,11 +55,17 @@
             <div class="size">
               <h4>Size</h4>
               <div class="sizes">
-                <span>7</span>
-                <span>8</span>
-                <span>9</span>
-                <span>10</span>
-                <span>11</span>
+                <input id=demoInput type=number min=0 max=10>
+          <button onclick="increment()">+</button>
+          <button onclick="decrement()">-</button>
+        <script>
+   function increment() {
+      document.getElementById('demoInput').stepUp();
+   }
+   function decrement() {
+      document.getElementById('demoInput').stepDown();
+   }
+</script>
               </div>
             </div>
             <div class="color">
