@@ -55,9 +55,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.
             <div class="size">
               <h4>Size</h4>
               <div class="sizes">
-                <input id=demoInput type=number min=0 max=10>
-          <button onclick="increment()">+</button>
-          <button onclick="decrement()">-</button>
+                <input id=demoInput type=number min=0 max=10 style="border: 2px solid black;" >
+          <button class="btn" onclick="increment()">+</button>
+          <button class="btn" onclick="decrement()">-</button>
         <script>
    function increment() {
       document.getElementById('demoInput').stepUp();
@@ -69,7 +69,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.
               </div>
             </div>
             <div class="color">
-              <h4>Color</h4>
+              <h4>Color</h4><br>
               <div class="colors">
                 <div class="color-1"></div>
                 <div class="color-2"></div>

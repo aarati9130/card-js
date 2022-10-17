@@ -181,6 +181,7 @@
     height: 2rem;
     border-radius: 50%;
     cursor: pointer;
+    margin-top: -10px;
   }
   
   .color-1 {
@@ -226,4 +227,10 @@
   
   .price span:last-child {
     font-weight: bold;
+  }
+
+
+  .btn{
+    border-color: #262626;
+    width: 20px;
   }
